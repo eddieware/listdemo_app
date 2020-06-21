@@ -24,21 +24,21 @@ class HomeScreen extends StatelessWidget {
                     Card(
                       child:ListTile(
                       leading:Icon(CupertinoIcons.add_circled_solid),
-                      title: Text('data'),
+                      title: Text('Elemento 1'),
                       trailing: Icon(CupertinoIcons.right_chevron),
                     ),
                     ),
                     Card(
                       child:ListTile(
                       leading:Icon(CupertinoIcons.add_circled_solid),
-                      title: Text('data'),
+                      title: Text('Elemento 1'),
                       trailing: Icon(CupertinoIcons.right_chevron),
                     ),
                     ),
                     Card(
                       child:ListTile(
                       leading:Icon(CupertinoIcons.add_circled_solid),
-                      title: Text('data'),
+                      title: Text('Elemento 1'),
                       trailing: Icon(CupertinoIcons.right_chevron),
                     ),
                     ),
@@ -48,9 +48,9 @@ class HomeScreen extends StatelessWidget {
               SliverList(
                                 delegate: SliverChildBuilderDelegate(
                                         (context, index) {
-                                        return CustomItemList(titulo: listaDePersonas[index]);
+                                        return CustomItemList(titulo: listaDePersonas[index]); // titulo variable titulo de CustomItemList // lista local de nombres
                                     },
-                                    childCount: listaDePersonas.length,
+                                    childCount: listaDePersonas.length, // determinacion de cuantos items a través de length
                                 ),
                             )
 

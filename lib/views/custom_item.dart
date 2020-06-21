@@ -12,7 +12,7 @@ class CustomItemList extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       leading: Icon(CupertinoIcons.add_circled),
-      title: Text('titulo'),
+      title: Text(titulo),
       trailing: Icon(CupertinoIcons.right_chevron),
 
       
